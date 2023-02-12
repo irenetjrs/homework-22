@@ -27,3 +27,12 @@ function compareArr(){
    }
 }
 compareArr();
+
+// task 3
+
+let phrase = 'I am learning JavaScript right now';
+const array = phrase.split(" ");
+console.log(array);
+
+// task 4
+
