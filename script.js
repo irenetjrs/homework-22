@@ -36,3 +36,17 @@ console.log(array);
 
 // task 4
 
+const d = [5, 3, 8, 5, 3, 2, 1, 2];
+const g = [];
+
+d.forEach(item => {
+   if(g.includes(item, 0)){
+      return;
+   }else{
+      g.push(item);
+   }
+});
+console.log(g);
+
+// task 5
+
